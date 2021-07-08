@@ -1,0 +1,70 @@
+! Source list for the SPIRALS project
+! Version: 2020-09-21
+
+! Note: s001 uses sources defined in its key file. It also changed scan setups between s001c and s001d for testing reasons.
+! Its maser source coordinates are 0.01asec and 0.4" off from MMB value (typo in first epoch, but kept same in all epochs).
+
+! Target masers
+SOURCE= 'G009.621+0.196', 'G009.62+0.19'   RA=18:06:14.67    DEC=-20:31:32.4   EQUINOX='J2000'  VEL=1.3    FLUX=5196. REMARKS='MMB' /
+SOURCE= 'G358.931-0.030', 'G358.93-0.03'   RA=17:43:10.02    DEC=-29:51:45.8   EQUINOX='J2000'  VEL=-15.9  FLUX=10.06 REMARKS='MMB' /
+
+SOURCE= 'G359.138+0.031', 'G359.13+0.03'   RA=17:43:25.67    DEC=-29:39:17.3   EQUINOX='J2000'  VEL=-3.9   FLUX=19.61 REMARKS='MMB' /
+SOURCE= 'G359.436-0.104', 'G359.43-0.10'   RA=17:44:40.60    DEC=-29:28:16.0   EQUINOX='J2000'  VEL=-46.7  FLUX=59.7  REMARKS='MMB' /
+SOURCE= 'G359.436-0.102', 'G359.43-0.10'   RA=17:44:40.21    DEC=-29:28:12.5   EQUINOX='J2000'  VEL=-53.6  FLUX= 1.5  REMARKS='MMB' /
+SOURCE= 'G359.615-0.243', 'G359.61-0.24'   RA=17:45:39.09    DEC=-29:23:30.0   EQUINOX='J2000'  VEL=22.6   FLUX=71.7  REMARKS='MMB' /
+SOURCE= 'G359.938+0.170', 'G359.93+0.17'   RA=17:44:48.55    DEC=-28:53:59.4   EQUINOX='J2000'  VEL=-0.5   FLUX= 1.56 REMARKS='MMB' /
+SOURCE= 'G359.970-0.457', 'G359.97-0.45'   RA=17:47:20.17    DEC=-29:11:59.4   EQUINOX='J2000'  VEL= 23.8  FLUX= 2.24 REMARKS='MMB' /
+
+! Polarization calibrators-----------------------------------------------------------------------------------
+SOURCE='1934-638','J1939-6342','J1939-63','F1939-6342'
+     RA= 19:39:25.0261239 DEC= -63:42:45.623198 RAERR=  2.815 DECERR=  1.001  CALCODE='V'
+     REMARKS='GSFC 2016a X/S astro solution,     13 observations.'
+/
+SOURCE='1610-771','J1617-7717','J1617-77','F1617-7717'
+     RA= 16:17:49.2764333 DEC= -77:17:18.467567 RAERR=  1.951 DECERR=  0.449  CALCODE='V'
+     FLUX =   2.20,  0.900,  0.468,   8.40,  0.840,  0.338    FLUXREF = 'GSFC flux.cat'
+     REMARKS='GSFC 2016a X/S astro solution,   5128 observations.'
+/
+SOURCE='1718-649','J1723-6500','J1723-65','F1723-6500'
+     RA= 17:23:41.0293952 DEC= -65:00:36.611126 RAERR=  0.207 DECERR=  0.108  CALCODE='V'
+     FLUX =   2.20,  0.380,  0.380,   8.40,  0.160,  0.160    FLUXREF = 'GSFC flux.cat'
+     REMARKS='GSFC 2016a X/S astro solution,    119 observations.'
+/
+SOURCE='1954-388','J1957-3845','J1957-38','F1957-3845'
+     RA= 19:57:59.8192753 DEC= -38:45:06.355917 RAERR=  0.007 DECERR=  0.007  CALCODE='V'
+     FLUX =   2.20,  1.430,  0.990,   8.40,  1.130,  0.506    FLUXREF = 'GSFC flux.cat'
+     REMARKS='GSFC 2016a X/S astro solution,  39193 observations.'
+/
+SOURCE='0135-247','J0137-2430','J0137-24','F0137-2430'
+     RA= 01:37:38.3464497 DEC= -24:30:53.885556 RAERR=  0.040 DECERR=  0.047  CALCODE='V'
+     FLUX =   2.20,  0.630,  0.630,   8.40,  0.470,  0.470    FLUXREF = 'GSFC flux.cat'
+     REMARKS='GSFC 2016a X/S astro solution,    957 observations.'
+/
+
+
+! Good fringe check sources (from sources.gsfc2016)
+SOURCE='1921-293','J1924-2914','F1924', 'F1921-293'
+     RA= 19:24:51.0559525 DEC= -29:14:30.121070 RAERR=  0.005 DECERR=  0.007  CALCODE='V'
+     FLUX =   2.20, 10.000,  0.004,   8.40,  6.940,  0.895    FLUXREF = 'GSFC flux.cat'
+     REMARKS='GSFC 2016a X/S astro solution,  63480 observations.'
+/
+SOURCE='0208-512','J0210-5101','F0210'
+     RA= 02:10:46.2004254 DEC= -51:01:01.891903 RAERR=  0.679 DECERR=  0.489  CALCODE='V'
+     FLUX =   2.20,  1.590,  0.696,   8.40,  2.770,  0.465    FLUXREF = 'GSFC flux.cat'
+     REMARKS='GSFC 2016a X/S astro solution,   8885 observations.'
+/
+SOURCE='0537-441','J0538-4405','F0538'
+     RA= 05:38:50.3615595 DEC= -44:05:08.939013 RAERR=  0.006 DECERR=  0.006  CALCODE='V'
+     FLUX =   2.20,  3.430,  0.890,   8.40,  3.610,  1.453    FLUXREF = 'GSFC flux.cat'
+     REMARKS='GSFC 2016a X/S astro solution,  72326 observations.'
+/
+SOURCE='3C279','1253-055','J1256-0547','F1256'
+     RA= 12:56:11.1665772 DEC= -05:47:21.525129 RAERR=  0.345 DECERR=  0.563  CALCODE='V'
+     FLUX =   2.20,  6.900,  6.900,   8.40, 10.000, 10.000    FLUXREF = 'GSFC flux.cat'
+     REMARKS='GSFC 2016a X/S astro solution,  13160 observations.'
+/
+SOURCE='3C273B','J1229+0203','3C273','1226+023','J1229+02'
+     RA= 12:29:06.6997310 DEC= +02:03:08.598201 RAERR=  1.031 DECERR=  1.379  CALCODE='V'
+     FLUX =   2.20,  1.150,  0.000,   8.40,  6.940,  0.000    FLUXREF = 'GSFC flux.cat'
+     REMARKS='GSFC 2016a X/S astro solution,  32136 observations.'
+/
